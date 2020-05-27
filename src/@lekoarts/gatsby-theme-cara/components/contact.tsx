@@ -4,7 +4,7 @@ import styled from "@emotion/styled"
 import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider"
 import Inner from "@lekoarts/gatsby-theme-cara/src//elements/inner"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
-import SVG from "@lekoarts/gatsby-theme-cara/src/components/svg"
+import SVG from "./svg"
 import { UpDown, UpDownWide, waveAnimation } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
 import Footer from "@lekoarts/gatsby-theme-cara/src/components/footer"
 // @ts-ignore
