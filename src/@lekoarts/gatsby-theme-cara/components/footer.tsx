@@ -36,7 +36,7 @@ const Footer = () => {
           href="https://www.sus.mcgill.ca"
           target="_blank"
         >
-          <img width="300" height="74" src="sus.png" alt="LekoArts Logo" />
+          <img width="300" height="74" src="sus.png" alt="SUS Logo" />
         </Link>
       </Flex>
     </Box>
