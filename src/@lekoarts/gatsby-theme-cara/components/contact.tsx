@@ -6,7 +6,7 @@ import Inner from "@lekoarts/gatsby-theme-cara/src//elements/inner"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide, waveAnimation } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
-import Footer from "@lekoarts/gatsby-theme-cara/src/components/footer"
+import Footer from "./footer"
 // @ts-ignore
 import ContactMDX from "../sections/contact"
 
