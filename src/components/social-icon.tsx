@@ -27,7 +27,7 @@ export default function SocialIcon(props: SocialIconProps) {
                     margin: `0px 25px 0px 0px`,
                 }}
             >
-                <FontAwesomeIcon icon={definition} size="3x" color="black"/>
+                <FontAwesomeIcon icon={definition} size="3x"/>
             </div>
         </a>
     )
