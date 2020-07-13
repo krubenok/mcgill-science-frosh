@@ -19,15 +19,17 @@ const Footer = () => (
       <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
         <div className="flex -mx-3">
           <div className="flex-1 px-3">
-            <h2 className="text-lg font-semibold">© 2020 Science Undergraduate Society</h2>
+            <h2 className="text-m lg:text-lg font-semibold">
+              © 2020 Science Undergraduate Society
+            </h2>
             <div className="px-8 py-4">
-              <a href="https://sus.mcgill.ca" target="_blank" rel="noreferrer">
+              <a href="https://sus.mcgill.ca" target="_blank">
                 <Img fluid={data.sus.childImageSharp.fluid} />
               </a>
             </div>
           </div>
           <div className="flex-1 px-3">
-            <h2 className="text-lg font-semibold">Contact Us</h2>
+            <h2 className="text-m lg:text-lg font-semibold">Contact Us</h2>
             <ul className="mt-4 leading-loose">
               <li>
                 <a href="mailto:frosh@susmcgill.ca">Email</a>
@@ -38,7 +40,7 @@ const Footer = () => (
             </ul>
           </div>
           <div className="flex-1 px-3">
-            <h2 className="text-lg font-semibold">Social Media</h2>
+            <h2 className="text-m lg:text-lg font-semibold">Social Media</h2>
             <ul className="mt-4 leading-loose">
               <li>
                 <a href="https://www.facebook.com/ScienceOrientationWeek/">Facebook</a>
