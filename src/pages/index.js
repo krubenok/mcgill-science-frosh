@@ -80,7 +80,7 @@ export default () => (
             />
           }
         />
-        <section id="stats" className="py-20 lg:pt-32">
+        {/* <section id="stats" className="py-20 lg:pt-32">
           <div className="container mx-auto text-center">
             <LabelText className="text-gray-600">Our customers get results</LabelText>
             <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -95,7 +95,7 @@ export default () => (
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section id="testimonials" className="py-20 lg:py-40">
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row md:-mx-3">
