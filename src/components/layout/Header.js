@@ -20,9 +20,9 @@ const Header = () => (
         <Link className="px-4" href="/team">
           Team
         </Link>
-        {/* <Link className="px-4" href="/schedule">
+        <Link className="px-4" href="/schedule">
           Schedule
-        </Link> */}
+        </Link>
         {/* <Link className="px-4" href="/resources">
           Resources
         </Link> */}
