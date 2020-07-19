@@ -1,7 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import 'react-accessible-accordion/dist/fancy-example.css';
 import Layout from '../components/layout/Layout';
 
 export default () => (
