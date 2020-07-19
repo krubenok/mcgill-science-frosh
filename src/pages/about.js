@@ -8,7 +8,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel
 } from 'react-accessible-accordion';
-import 'react-accessible-accordion/dist/fancy-example.css';
+import '../css/accordion.css';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 
