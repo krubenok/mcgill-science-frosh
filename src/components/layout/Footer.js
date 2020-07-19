@@ -1,14 +1,14 @@
 import React from 'react';
-import { StaticQuery, graphql, Link } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 const Footer = () => (
   <StaticQuery
     query={graphql`
       query {
-        sus: file(relativePath: { eq: "sus.png" }) {
+        icon: file(relativePath: { eq: "susicon.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxHeight: 150) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -17,18 +17,16 @@ const Footer = () => (
     `}
     render={data => (
       <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
-        <div className="flex -mx-3">
-          <div className="flex-1 px-3">
-            <h2 className="text-m lg:text-lg font-semibold">
-              © 2020 Science Undergraduate Society
-            </h2>
-            <div className="px-8 py-4">
-              <a href="https://sus.mcgill.ca" target="_blank">
-                <Img fluid={data.sus.childImageSharp.fluid} />
+        <div className="flex justify-around">
+          <div className="flex-3 px-3 text-center">
+            <h2 className="text-m lg:text-lg font-semibold">Copyright SUS 2020</h2>
+            <div className="px-8 py-4 h-4">
+              <a href="https://sus.mcgill.ca" target="_blank" rel="noreferrer">
+                <Img fluid={data.icon.childImageSharp.fluid} />
               </a>
             </div>
           </div>
-          <div className="flex-1 px-3">
+          <div className="flex-2 px-3">
             <h2 className="text-m lg:text-lg font-semibold">Contact Us</h2>
             <ul className="mt-4 leading-loose">
               <li>
@@ -39,7 +37,7 @@ const Footer = () => (
               </li>
             </ul>
           </div>
-          <div className="flex-1 px-3">
+          <div className="flex-2 px-3">
             <h2 className="text-m lg:text-lg font-semibold">Social Media</h2>
             <ul className="mt-4 leading-loose">
               <li>

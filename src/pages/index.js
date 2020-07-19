@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Button from '../components/Button';
 import CustomerCard from '../components/CustomerCard';
@@ -41,7 +41,9 @@ export default () => (
               </h1>
               <p className="text-xl lg:text-2xl mt-6 font-light">McGill Science Frosh 2020</p>
               <p className="mt-8 md:mt-12">
-                <Button size="lg">Register Now</Button>
+                <a href="https://www.mcgilloweek.ca">
+                  <Button size="lg">Register Now</Button>
+                </a>
               </p>
               <p className="mt-4 text-gray-600">August 27th - 30th 2020</p>
             </div>
@@ -112,10 +114,17 @@ export default () => (
           </div>
         </section>
         <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-          <h3 className="text-5xl font-semibold">Ready for the best week of your life?</h3>
-          <p className="mt-8 text-xl font-light">Sign up now blah blah blah</p>
+          <h3 className="text-3xl mx-2 font-semibold">
+            Register now for four days of exciting interactive events and bonding activities.
+          </h3>
+          <p className="mt-8 mx-2 text-xl font-light">
+            For more information on what is included in your Frosh package, check out our{' '}
+            <Link to="/about">About page.</Link>
+          </p>
           <p className="mt-8">
-            <Button size="xl">Register</Button>
+            <a href="https://www.mcgilloweek.ca">
+              <Button size="xl">Register</Button>
+            </a>
           </p>
         </section>
       </Layout>

@@ -1,26 +1,17 @@
 export default [
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+    title: 'Science Frosh Bursary',
     content:
-      'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-    customerName: 'Jane Doe',
-    customerTitle: 'Director of Research and Data',
-    customerImage: 'https://placeimg.com/150/150/people'
+      'is intended for incoming McGill Students who demonstrate financial need and wish to participate in Science Faculty Frosh (Aug 27-30th).',
+    link:
+      'https://docs.google.com/forms/d/e/1FAIpQLSfJVPZe9-XclEZoWsQHU9L5DHVbE_akvIhkWqKndeVB7-OSjA/viewform',
+    cta: 'Apply'
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-    content:
-      'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
+    title: 'Got Questions?',
+    content: "Contact us, we're happy to answer any questions you might have!",
     customerName: 'John Doe',
-    customerTitle: 'Director of Research and Data',
-    customerImage: 'https://placeimg.com/150/150/people'
-  },
-  {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-    content:
-      'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-    customerName: 'Jane Smith',
-    customerTitle: 'Director of Research and Data',
-    customerImage: 'https://placeimg.com/150/150/people'
+    link: 'mailto:frosh@susmcgill.ca?subject=Hello%20%F0%9F%91%8B',
+    cta: 'Send us an Email'
   }
 ];
