@@ -24,7 +24,7 @@ export default () => (
         }
         logo1: file(relativePath: { eq: "logo.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -43,7 +43,7 @@ export default () => (
               <p className="mt-8 md:mt-12">
                 <Button size="lg">Register Now</Button>
               </p>
-              <p className="mt-4 text-gray-600">August xx - September yy, 2020</p>
+              <p className="mt-4 text-gray-600">August 27th - 30th 2020</p>
             </div>
             <div className="lg:w-1/2">
               <Img fluid={data.logo1.childImageSharp.fluid} />
@@ -54,16 +54,20 @@ export default () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="text-3xl font-semibold leading-tight">Some tagline about frosh</h3>
-              <p className="mt-8 text-xl font-light leading-relaxed">
-                Some exansion on those thoughts?? We are all best friends, except this year it's
-                online!
+              <h3 className="text-3xl font-semibold leading-tight">Join us August 27th - 30th!</h3>
+              <p className="mt-6 text-l font-light leading-relaxed">
+                When students register for Frosh, they're signing up for four days of engaging
+                virtual events with the goal of introducing students to the McGill and Montreal
+                community. No matter where our Froshies are this year they will have the opportunity
+                to foster connections in a safe and inclusive online environment. The Science
+                coordinators, leaders, and community can’t wait to see you for this once in a
+                lifetime opportunity!
               </p>
             </div>
           }
           secondarySlot={<Img fluid={data.frosh1.childImageSharp.fluid} />}
         />
-        <SplitSection
+        {/* <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
               <h3 className="text-3xl font-semibold leading-tight">Check out last year</h3>
@@ -79,7 +83,7 @@ export default () => (
               allow="autoplay; encrypted-media; picture-in-picture"
             />
           }
-        />
+        /> */}
         {/* <section id="stats" className="py-20 lg:pt-32">
           <div className="container mx-auto text-center">
             <LabelText className="text-gray-600">Our customers get results</LabelText>
