@@ -3,9 +3,9 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          lighter: 'hsl(207, 73%, 52%)',
-          default: 'hsl(207, 73%, 57%)',
-          darker: 'hsl(207, 73%, 44%)'
+          lighter: 'hsl(203, 63%, 51%)',
+          default: 'hsl(203, 99%, 39%)',
+          darker: 'hsl(203, 100%, 31%)'
         }
       }
     }
@@ -13,3 +13,5 @@ module.exports = {
   variants: {},
   plugins: []
 };
+
+//

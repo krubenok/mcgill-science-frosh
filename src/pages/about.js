@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import {
@@ -34,6 +35,14 @@ export default () => (
     `}
     render={data => (
       <Layout>
+        <div className="application">
+          <Helmet>
+            <html lang="en" amp />
+            <meta charSet="utf-8" />
+            <title>Froshters, Inc. | About</title>
+            <link rel="canonical" href="https://susfrosh.com/about" />
+          </Helmet>
+        </div>
         <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
           <Img
             fluid={data.cover.childImageSharp.fluid}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Layout from '../components/layout/Layout';
@@ -18,6 +19,14 @@ export default () => (
     `}
     render={data => (
       <Layout>
+        <div className="application">
+          <Helmet>
+            <html lang="en" amp />
+            <meta charSet="utf-8" />
+            <title>Froshters, Inc. | Team</title>
+            <link rel="canonical" href="https://susfrosh.com/team" />
+          </Helmet>
+        </div>
         <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Meet the team</h1>
           <h2 className="text-3xl lg:text-4xl font-semibold">Coordinators</h2>

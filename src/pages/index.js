@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Button from '../components/Button';
@@ -29,6 +30,14 @@ export default () => (
     `}
     render={data => (
       <Layout>
+        <div className="application">
+          <Helmet>
+            <html lang="en" amp />
+            <meta charSet="utf-8" />
+            <title>Froshters, Inc. | Home</title>
+            <link rel="canonical" href="https://susfrosh.com" />
+          </Helmet>
+        </div>
         <section className="pt-20 md:pt-40">
           <div className="container mx-auto px-8 lg:flex">
             <div className="text-center lg:text-left lg:w-1/2">
@@ -41,7 +50,7 @@ export default () => (
                   <Button size="lg">Register Now</Button>
                 </a>
               </p>
-              <p className="mt-4 text-gray-600">August 27th - 30th 2020</p>
+              <p className="mt-4 text-gray-800">August 27th - 30th 2020</p>
             </div>
             <div className="lg:w-1/2">
               <Img fluid={data.logo1.childImageSharp.fluid} alt="Froshters Inc. Logo" />
@@ -54,7 +63,7 @@ export default () => (
             <div className="lg:pl-32 xl:pl-48">
               <h3 className="text-3xl font-semibold leading-tight">Join us August 27th - 30th!</h3>
               <p className="mt-6 text-l font-light leading-relaxed">
-                When students register for Frosh, they're signing up for four days of engaging
+                When students register for Frosh, they&apos;re signing up for four days of engaging
                 virtual events with the goal of introducing students to the McGill and Montreal
                 community. No matter where our Froshies are this year they will have the opportunity
                 to foster connections in a safe and inclusive online environment. The Science
@@ -120,7 +129,9 @@ export default () => (
           </h3>
           <p className="mt-8 mx-2 text-xl font-light">
             For more information on what is included in your Frosh package, check out our{' '}
-            <Link to="/about">About page.</Link>
+            <Link className="text-gray-800 underline" to="/about">
+              About page.
+            </Link>
           </p>
           <p className="mt-8">
             <a href="https://www.mcgilloweek.ca">
