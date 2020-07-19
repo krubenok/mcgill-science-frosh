@@ -13,6 +13,25 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Science Frosh 2020: Froshters, Inc.`,
+        short_name: `Froshters, Inc.`,
+        start_url: `/`,
+        background_color: `#017CC6      `,
+        theme_color: `#7AB142`,
+        display: `standalone`,
+        icon: `src/images/logo.png`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about/`, `/schedule/`]
+      }
+    }
   ]
 };
