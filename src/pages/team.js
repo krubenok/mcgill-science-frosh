@@ -91,7 +91,10 @@ export default () => (
             pool of applicants and complete extensive training on harm reduction, online skills,
             consent, and more!{' '}
           </p>
-          <Img fluid={data.leaders.childImageSharp.fluid} />
+          <Img
+            fluid={data.leaders.childImageSharp.fluid}
+            alt="photo of leaders guiding a group of new students in a parc"
+          />
           <h3 className="text-l lg:text-xl font-semibold leading-tight">Access Allies</h3>
           <p className="text-m lg:text-l mt-6 font-light">
             Access allies are Frosh leaders with additional accessibility and mental health training

@@ -44,7 +44,7 @@ export default () => (
               <p className="mt-4 text-gray-600">August 27th - 30th 2020</p>
             </div>
             <div className="lg:w-1/2">
-              <Img fluid={data.logo1.childImageSharp.fluid} />
+              <Img fluid={data.logo1.childImageSharp.fluid} alt="Froshters Inc. Logo" />
             </div>
           </div>
         </section>
@@ -63,7 +63,12 @@ export default () => (
               </p>
             </div>
           }
-          secondarySlot={<Img fluid={data.frosh1.childImageSharp.fluid} />}
+          secondarySlot={
+            <Img
+              fluid={data.frosh1.childImageSharp.fluid}
+              alt="Photo of many students in a crowd at a concert"
+            />
+          }
         />
         {/* <SplitSection
           primarySlot={

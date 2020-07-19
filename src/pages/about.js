@@ -35,7 +35,10 @@ export default () => (
     render={data => (
       <Layout>
         <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
-          <Img fluid={data.cover.childImageSharp.fluid} />
+          <Img
+            fluid={data.cover.childImageSharp.fluid}
+            alt="Froshers Ink Logo on green background with dates august 27th to 30th."
+          />
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">About Frosh</h1>
           <p className="text-m lg:text-l mt-2 font-light">
             <b>FROSHTERS, INC</b> is the 2020 Orientation Week for students entering the McGill
@@ -57,7 +60,12 @@ export default () => (
         </section>
         <section className="container mx-auto px-4 my-20 pt-8 space-y-4">
           <SplitSection
-            primarySlot={<Img fluid={data.frosh2.childImageSharp.fluid} />}
+            primarySlot={
+              <Img
+                fluid={data.frosh2.childImageSharp.fluid}
+                alt="Photo of two froshies pointing at camera smiling"
+              />
+            }
             secondarySlot={
               <div className="lg:pl-32 xl:pl-48">
                 <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold">

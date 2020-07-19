@@ -22,7 +22,10 @@ const Footer = () => (
             <h2 className="text-m lg:text-lg font-semibold">Copyright SUS 2020</h2>
             <div className="px-8 py-4 h-4">
               <a href="https://sus.mcgill.ca" target="_blank" rel="noreferrer">
-                <Img fluid={data.icon.childImageSharp.fluid} />
+                <Img
+                  fluid={data.icon.childImageSharp.fluid}
+                  alt="Science undergraduate society logo"
+                />
               </a>
             </div>
           </div>

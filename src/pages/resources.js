@@ -20,7 +20,10 @@ export default () => (
     render={data => (
       <Layout>
         <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
-          <Img fluid={data.frosh3.childImageSharp.fluid} />
+          <Img
+            fluid={data.frosh3.childImageSharp.fluid}
+            alt="Many students doing Yoga at top of mountain"
+          />
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">About Frosh</h1>
           <p className="text-m lg:text-l mt-2 font-light">
             <b>FROSHTERS, INC</b> is the 2020 Orientation Week for students entering the McGill
