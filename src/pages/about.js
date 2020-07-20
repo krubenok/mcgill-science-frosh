@@ -391,9 +391,11 @@ export default () => (
               </AccordionItemHeading>
               <AccordionItemPanel>
                 <p className="text-m lg:text-l mt-2 font-light">
-                  Once you’ve registered and paid for Frosh, your Frosh package including all of
-                  your Frosh swag and detailed instructions on how to set up your Frosh account will
-                  be sent directly to your house.
+                  Once you’ve registered and paid for Frosh, all information on accessing Frosh
+                  websites/content will be sent to you by email. You will have the option to have
+                  your Frosh package including all of your Frosh swag delivered directly to your
+                  house or to pick it up if you are in Montreal around the time of Frosh. More
+                  details to come on Frosh Package Pickup details.
                 </p>
               </AccordionItemPanel>
             </AccordionItem>
@@ -500,6 +502,392 @@ export default () => (
                   Each day will be made up of multiple events spread out throughout the day to cater
                   to multiple time zones. In total, Frosh will be roughly 4-5 hours a day.
                 </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+          </Accordion>
+          <h3 className="text-xl lg:text-2xl xl:text-3xl">Accessibility and Inclusivity</h3>
+          <Accordion allowZeroExpanded>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>What is Consent?</AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Consent is an informed and uninhibited agreement from all participating and
+                  affected parties regarding an action or activity. Consent is continuous, meaning
+                  it can be revoked at any time for any reason. It can be recognised by the presence
+                  of an enthusiastic “yes”, and not by the absence of a “no”. This applies to all
+                  circumstances and situations during Frosh, including sexual acts, photosharing,
+                  and alcohol consumption. Consent from all involved and affected members is
+                  required for all actions people choose to take.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Consent can never be assumed and cannot be given if a person is incapacitated by
+                  alcohol and/or drugs or unconscious.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  All Frosh participants are required to watch a video about consent made by Frosh
+                  Coordinators. This ensures that the meaning of consent is unambiguous and
+                  unanimous among all Frosh participants. Many (notably, but not exclusively,
+                  sexual) acts committed without consent in the context of Frosh are eligible for
+                  consequences imposed by respective Frosh Committees and the Office of the Dean of
+                  Students.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  How does Consent translate to an online setting?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Consent is exactly the same online as offline. We expect all Frosh participants to
+                  be aware of how their actions affect others in an online setting, and to ensure
+                  that all affected individuals are informed and have agreed to their actions.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Specifically, if a person were to share a photo or video of other people, it is
+                  important that everyone in the photo or video have agreed to have it be shared and
+                  where.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Someone who is unreachable online (asleep due to time zones, not logged in, unable
+                  to access a strong internet connection at the time) is unable to provide consent.
+                  This person is also unable to ask for or receive consent.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  It is important to remember that consent is never implied, especially in an online
+                  context where socialising can often leave more to implication than in an in-person
+                  setting.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  What is Sexual Harassment and Sexual Assault?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Sexual violence is an umbrella term thaty encapsulates two behaviours; sexual
+                  harassment and sexual asssault.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Sexual harassment is any form of unwanted sexual advances, requests for sexual
+                  acts, and verbal sexual aggressions. This includes harassment online or in-person.
+                  Examples of sexual harassment include, but are not limited to, unwelcome sexual
+                  teasing, jokes, remarks, questions, or suggestive signals.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Sexual assault is any act of a sexual nature that the done without unambiguous and
+                  enthusiastic consent. Sexual harassment becomes sexual assault when physical
+                  contact is made.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Both sexual assault and harassment can be committed by any gender.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  If you or someone you know is affected by sexual assault or harassment during
+                  Frosh, please do not hesitate to contact the Inclusivity Coordinator. They will
+                  explain the various courses of action available, offer on and off campus resources
+                  and support, and will provide confidential, non-judgmental, and pro-survivor
+                  support.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  <b>
+                    Regardless of the nature of the sexual act or type of harassment, if the
+                    incident made you uncomfortable we encourage you to reach out to the Inclusivity
+                    Coordinator immediately. Unless there is imminent danger, your disclosure will
+                    remain completely confidential.
+                  </b>
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  <i>
+                    Please note: you do not have to contact the Inclusivity Coordinator directly,
+                    leaders and other coordinators are all prepared and trained to receive and help
+                    with such information
+                  </i>
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  I have mental health challenges, how could Frosh affect that?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Frosh is an exciting week full of new experiences and meeting tons of other
+                  incoming students. But just as much as it is exciting, it can also be mentally
+                  taxing and stress-inducing. Students are encouraged to speak up when they are
+                  struggling with their mental health challenges. McGill has a number of resources
+                  available to students during Orientation Week that serves this purpose:
+                </p>
+                <ul className="list-disc text-m lg:text-l ml-8 mt-2 font-light">
+                  <li>
+                    <strong>Peer Support Centre</strong>: A confidential and non-judgmental peer
+                    support service located on the 4th floor of the SSMU building on McTavish.
+                    Volunteers will be available by phone during Frosh. For more information please
+                    consult their website: <a href="https://psc.ssmu.ca">https://psc.ssmu.ca</a>
+                  </li>
+                  <li>
+                    <strong>Nightline</strong>: A confidential, anonymous, and non-judgmental peer
+                    support service via phone conversation. For Frosh hours of service, please
+                    consult their website:{' '}
+                    <a href="https://ssmu.mcgill.ca/nightline">https://ssmu.mcgill.ca/nightline</a>
+                  </li>
+                  <li>
+                    <strong>Access Allies</strong>: Frosh Leaders with additional and more specific
+                    training that makes them well-equipped to refer Frosh participants to the
+                    correct services for a variety of mental or physical challenges. They will be
+                    identifiably distinct from other leaders during Frosh and you may contact any
+                    access ally from any group.
+                  </li>
+                  <li>
+                    <strong>Vent Over Tea</strong>: A free active listening service that pairs
+                    people up with volunteers to have a conversation in a local Montreal coffee
+                    shop. Confidential and non-judgmental, Vent Over Tea volunteers are typically
+                    graduates pursuing careers in social work, psychology, or medicine.
+                  </li>
+                </ul>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  I have visual/auditory difficulties, will I still be able to participate in Frosh?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  The most accurate subtitles that we can realistically access will be available for
+                  all events. In addition all information shared as a part of Frosh will be readable
+                  by screen reader.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Yes. Please indicate on your online registration form that you have
+                  visual/auditory difficulties or email the Inclusivity and Equity Coordinator at{' '}
+                  <a href="mailto:frosh@susmcgill.ca">frosh@susmcgill.ca</a>. We are including
+                  considerations for such difficulties in our event designs, and benefit greatly
+                  from any information about what we can best do to help.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  During Frosh, where can I receive extra support for my accessibility challenges?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Student’s Frosh Leaders are there to help them every step of the way during Frosh.
+                  Always feel free to reach out to your Leaders if you require extra assistance at
+                  any point during the week. Additionally, the Science Inclusivity Coordinator will
+                  be present during Frosh to ensure all accessibility concerns are addressed and
+                  student’s receive adequate support. This Coordinator’s phone number will be
+                  accessible once you sign up for Frosh. You may also fill out our{' '}
+                  <a href="https://docs.google.com/forms/d/18DqM_ejfVlJObVDWJCS4P85PkHihK4MhvifGHxfFdOg/viewform?fbclid=IwAR3JE4IvHqDcAYoK6rtq7390vHQwfIBU4ZCSx2VK1PliV6dYAWQwkh7w0Rg&amp;edit_requested=true">
+                    accessibility form{' '}
+                  </a>
+                  to express your concerns.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  I have another issue that the Frosh Coordinators should know about, how can I tell
+                  them?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  If you have any other concerns (medical, mental health, etc.) that you would like
+                  to be noted please email us at frosh@susmcgill.ca or message McGill Science
+                  Orientation Week on Facebook. We check these regularly and will be sure to get
+                  back to you right away.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Please remember that we will be better equipped to help you if you tell us of any
+                  potential issues before Frosh begins. You are also welcome to reach out to any
+                  Frosh Coordinator during the event in order to share any issues that may arise.
+                  Please do not worry about approaching us; we are here to ensure your safety and
+                  fun at Frosh!
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>How will timezones be accommodated?</AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Most events will be recorded and occur at multiple different times in hopes that
+                  everyone will be able to realistically attend at least one of the sessions.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Leaders will be encouraged to ensure group bonding at many times of the day so
+                  it’s not the same participants missing bonding consistently due to timezones.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  We are disappointed that we are unable to provide exactly the same Frosh
+                  experience to everyone no matter where they are in the world, but we can guarantee
+                  that people in any timezone will be able to participate in Frosh.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  What measures will be in place to ensure online bullying is not tolerated?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  We take any violation of consent or form of harassment (eg. bullying) during Frosh
+                  incredibly seriously and are prepared to remove offending participants from Frosh.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Students may express their concerns directly to a coordinator or leader before,
+                  during, or after Frosh. Information on how to make an anonymous complaint will
+                  also be given once you receive your Frosh account.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+          </Accordion>
+          <h3 className="text-xl lg:text-2xl xl:text-3xl">Health, Safety and Harm Reduction</h3>
+          <Accordion allowZeroExpanded>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  What is the drinking age and what if I am not of age?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  The legal drinking age in Quebec is 18, however we recognize that many students
+                  taking part in Frosh will not be in Quebec. Here is a link for the drinking ages
+                  around the world, please check for your respective region if you are unsure of the
+                  drinking age: Legal Drinking Ages around the world - You&#39;ll be Surprised!{' '}
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Frosh is about the events and activities, not about drinking alcohol. Underage
+                  students find that their Frosh experience is hardly changed by their age and they
+                  still have an amazing time! More information on which events you will be able to
+                  opt-in to alcohol consumption will be provided by your leaders and the schedule.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>Is there alcohol present at Frosh?</AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Yes, Science Frosh does acknowledge that many incoming students are of legal
+                  drinking age in their respective regions and organizes a safe and inclusive space
+                  for people to opt-in to drinking alcohol. However, as the legal age is different
+                  in all areas of the world, we do not encourage the consumption of alcohol or other
+                  substances during Frosh events.
+                </p>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  While Frosh is mainly made up of social events, please keep in mind that it does
+                  not entail the consumption of alcohol or other substances. We strongly urge you to
+                  be aware of the fact that it is difficult for us to effectively reduce harm or
+                  provide you with any necessary assistance that comes as a result of consumption in
+                  a virtual world. Should you make the choice to drink, please be informed of all
+                  regional laws and regulations in regard to substance use as well as safe
+                  consumption practices, such as knowing your limits and making sure that you are
+                  not alone when you engage in such activities.
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>What if I don’t drink or can’t drink?</AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Some Science Frosh events will allow participants to drink alcohol, however
+                  drinking is always optional. Frosh is designed so that every participant will be
+                  able to enjoy themselves, regardless of whether or not they are drinking. There
+                  will also be online events in which drinking will inhibit the flow of the event,
+                  therefore it will not be allowed.{' '}
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  If I’m underage in my respective location during Frosh (or for part of it) is it
+                  still worth it?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-m lg:text-l mt-2 font-light">
+                  Yes! The Science Frosh Coordinators strive to make every effort to ensure everyone
+                  is included. Frosh is about the events and activities and there are no events
+                  centered around alcohol. Underage students find that their Frosh experience is
+                  hardly changed by their age and they still have an amazing time.{' '}
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  If I choose to drink, how can I consume alcohol in a safe way?
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <ul className="list-disc text-m lg:text-l ml-8 mt-2 font-light">
+                  <li>
+                    Students who make the decision to consume alcohol during Frosh week should be
+                    aware that alcohol affects different people in different ways. Here are a few
+                    tips to make sure Frosh stays a safe and fun environment for all:
+                  </li>
+                  <li>
+                    Count your drinks: It takes one hour to metabolize a drink (12 ounces of beer, 5
+                    ounces of wine, or 1.5 ounces of hard liquor). Just because the alcohol doesn’t
+                    hit you right away, doesn’t mean it isn’t there!
+                  </li>
+                  <li>
+                    Inform a friend: Make sure you consume alcohol with people you feel safe and
+                    comfortable around. It’s best to stick with your Frosh Group! Your Leaders are a
+                    great resource if you ever feel you have consumed too much or are not sure if
+                    you have consumed too much.
+                  </li>
+                  <li>
+                    Don’t drink on an empty stomach: Eating before drinking decreases the absorption
+                    rate of alcohol.
+                  </li>
+                  <li>
+                    Alcohol affects people in different ways: Alcohol tends to have a stronger
+                    effect on females than males due to female’s lower levels of alcohol
+                    dehydrogenase, an enzyme that aids in the metabolism of alcohol. Additionally,
+                    your body’s water content plays a role in how your body metabolizes alcohol,
+                    which is why oftentimes when a male and a female are the same weight, the man
+                    will have a higher tolerance.{' '}
+                  </li>
+                  <li>
+                    Nicotine: Smoking slows the emptying of your stomach, in turn delaying alcohol
+                    absorption. Just because you don’t feel the alcohol right away, doesn’t mean you
+                    won’t later!
+                  </li>
+                  <li>
+                    Tylenol: Alcohol and tylenol separately can already cause liver failure. Taken
+                    together, either during consumption of alcohol or while hungover, can increase
+                    risk of liver failure even more.
+                  </li>
+                  <li>
+                    Benadryl: Mixing an antihistamine with alcohol will cause an increase in
+                    drowsiness.
+                  </li>
+                </ul>
               </AccordionItemPanel>
             </AccordionItem>
           </Accordion>

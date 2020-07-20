@@ -21,7 +21,7 @@ module.exports = {
         name: `Science Frosh 2020: Froshters, Inc.`,
         short_name: `Froshters, Inc.`,
         start_url: `/`,
-        background_color: `#017CC6      `,
+        background_color: `#FFFFFF`,
         theme_color: `#7AB142`,
         display: `standalone`,
         icon: `src/images/logo.png`
