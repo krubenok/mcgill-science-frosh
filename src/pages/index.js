@@ -56,7 +56,7 @@ export default () => (
               </div>
               <div className="flex-auto">
                 <p>
-                  <a href="https://www.mcgilloweek.ca">
+                  <a href="">
                     <Button size="sm:l md:xl">Registration Opening Soon</Button>
                   </a>
                 </p>
@@ -141,7 +141,7 @@ export default () => (
             </Link>
           </p>
           <p className="mt-8">
-            <a href="https://www.mcgilloweek.ca">
+            <a href="">
               <Button size="xl">Registeration Opening Soon</Button>
             </a>
           </p>

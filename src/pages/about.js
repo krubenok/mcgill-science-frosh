@@ -48,8 +48,10 @@ export default () => (
             fluid={data.cover.childImageSharp.fluid}
             alt="Froshers Ink Logo on green background with dates august 27th to 30th."
           />
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">About Frosh</h1>
-          <p className="text-m lg:text-l mt-2 font-light">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold max-w-screen-lg mx-auto">
+            About Frosh
+          </h1>
+          <p className="maxtext-m lg:text-l mt-2 leading-relaxed max-w-screen-lg mx-auto">
             <b>FROSHTERS, INC</b> is the 2020 Orientation Week for students entering the McGill
             Faculty of Science in the 2020-2021 academic year. Due to the McGill Fall 2020 semester
             being online, the Faculty of Science will also be moving Frosh to a virtual platform.
@@ -893,15 +895,17 @@ export default () => (
           </Accordion>
         </section>
         <section className="container mx-auto px-4 my-20 pt-8 space-y-4">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Land Acknowledgment</h1>
-          <p className="text-m lg:text-l mt-2 font-light">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold max-w-screen-lg mx-auto">
+            Land Acknowledgment
+          </h1>
+          <p className="text-m lg:text-l mt-2 max-w-screen-lg mx-auto">
             The SUS acknowledges that McGill is on the traditional territory of the Indigenous
             People, Kanien&apos;keha:ka (Ga-niyen-ge-haa-ga). The Kanien&apos;keha:ka are the
             keepers of the Eastern Door of the Haudenosaunee Confederacy. This island known as
             Montreal is known as Tio’tia:ke (Gio-Jaw-Gé) in the language of the Kanien’kehá:ka, and
             has historically served as a meeting place for other Indigenous nations.
           </p>
-          <p className="text-m lg:text-l mt-2 font-light">
+          <p className="text-m lg:text-l mt-2 max-w-screen-lg mx-auto">
             It is not enough to just acknowledge the keepers of this land and McGill’s status as a
             settler-colonial institution. Silence and inaction will only contribute to erasing the
             history, the culture, and the realities of Indigenous people. As such, it is important

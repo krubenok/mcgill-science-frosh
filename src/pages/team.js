@@ -126,9 +126,13 @@ export default () => (
           </Helmet>
         </div>
         <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Meet the team</h1>
-          <h2 className="text-3xl lg:text-4xl font-semibold">Coordinators</h2>
-          <p className="text-m lg:text-l mt-6">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold max-w-screen-lg mx-auto">
+            Meet the team
+          </h1>
+          <h2 className="text-3xl lg:text-4xl font-semibold max-w-screen-lg mx-auto">
+            Coordinators
+          </h2>
+          <p className="text-m lg:text-l mt-6 max-w-screen-lg mx-auto">
             Coordinators are upper year students who spend their summer organizing Frosh and making
             sure everything runs smoothly. There are 14 Science Orientation Coordinators and they
             will be wearing blue and white tie dye tanks. Don’t hesitate to contact a Coord if you
@@ -466,8 +470,10 @@ export default () => (
               </p>
             </div>
           </div>
-          <h2 className="text-3xl lg:text-4xl font-semibold leading-tight">Leaders</h2>
-          <p className="text-m lg:text-l mt-6 font-light">
+          <h2 className="text-3xl lg:text-4xl font-semibold leading-tight max-w-screen-lg mx-auto">
+            Leaders
+          </h2>
+          <p className="text-m lg:text-l mt-6 font-light max-w-screen-lg mx-auto">
             Frosh leaders are your guides for the week. These are McGill Students who have
             previously participated in Frosh and want to volunteer their time to guide incoming
             students through this awesome new experience. They are selected out of a competitive
@@ -478,8 +484,10 @@ export default () => (
             fluid={data.leaders.childImageSharp.fluid}
             alt="photo of leaders guiding a group of new students in a parc"
           />
-          <h3 className="text-l lg:text-xl font-semibold leading-tight">Access Allies</h3>
-          <p className="text-m lg:text-l mt-6 font-light">
+          <h3 className="text-l lg:text-xl font-semibold leading-tight max-w-screen-lg mx-auto">
+            Access Allies
+          </h3>
+          <p className="text-m lg:text-l mt-6 font-light max-w-screen-lg mx-auto">
             Access allies are Frosh leaders with additional accessibility and mental health training
             that are there for you if you don’t feel comfortable speaking with your own Leaders or
             need a little extra support! After you register for Frosh you will receive more
