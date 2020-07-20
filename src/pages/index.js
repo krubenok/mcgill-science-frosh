@@ -109,7 +109,7 @@ export default () => (
           </p>
           <p className="mt-8">
             <a href="">
-              <Button size="xl">Registeration Opening Soon</Button>
+              <Button size="xl">Registration Opening Soon</Button>
             </a>
           </p>
         </section>
