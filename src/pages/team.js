@@ -71,6 +71,13 @@ export default () => (
             }
           }
         }
+        pengi: file(relativePath: { eq: "pengi.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         maddie: file(relativePath: { eq: "maddie.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
@@ -317,7 +324,7 @@ export default () => (
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-              <Img fluid={data.leo.childImageSharp.fluid} alt="Pengi" />
+              <Img fluid={data.pengi.childImageSharp.fluid} alt="Pengi" />
               <p>
                 <strong>Name:</strong> Pengi (he/him)
               </p>
