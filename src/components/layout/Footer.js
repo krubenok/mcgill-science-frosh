@@ -16,7 +16,7 @@ const Footer = () => (
       }
     `}
     render={data => (
-      <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
+      <footer className="container mx-auto py-4 px-3 text-gray-800">
         <div className="flex justify-around">
           <div className="flex-3 px-3 text-center">
             <h2 className="text-m lg:text-lg font-semibold">Copyright SUS 2020</h2>

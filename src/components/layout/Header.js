@@ -14,22 +14,22 @@ const Header = () => (
         </div>
       </div>
       <div className="flex flex-wrap justify-around content-around items-center mt-4 sm:mt-0">
-        <Link className="px-2" href="/about">
+        <Link className="px-2 my-2" href="/about">
           About
         </Link>
-        <Link className="px-2" href="/team">
+        <Link className="px-2 my-2" href="/team">
           Team
         </Link>
-        <Link className="px-2" href="/schedule">
+        <Link className="px-2 my-2" href="/schedule">
           Schedule
         </Link>
-        <Link className="px-2" href="/resources">
+        <Link className="px-2 my-2" href="/resources">
           Resources
         </Link>
-        <Link className="px-2" href="/partners">
+        <Link className="px-2 my-2" href="/partners">
           Partners
         </Link>
-        <Link className="px-2" href="/contact">
+        <Link className="px-2 my-2" href="mailto:frosh@susmcgill.ca">
           Contact
         </Link>
       </div>
