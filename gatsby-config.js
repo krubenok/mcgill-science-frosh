@@ -4,7 +4,9 @@ module.exports = {
     titleTemplate: '%s · Froshters, Inc.',
     description: 'McGill Science Frosh 2020, Froshters, Inc.!',
     url: 'https://susfrosh.com', // No trailing slash allowed!
-    image: '/cover.png' // Path to your image you placed in the 'static' folder
+    image: '/cover.png', // Path to your image you placed in the 'static' folder
+    siteLanguage: 'en',
+    siteImage: '/cover.png'
   }
 };
 
