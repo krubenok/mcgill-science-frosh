@@ -22,7 +22,7 @@
 }
 
 .accordion__button:hover {
-  background-color: #f4f4f4;
+  background-color: #D6E9F5;
 }
 
 .accordion__button:before {
@@ -34,6 +34,10 @@
   border-bottom: 2px solid currentColor;
   border-right: 2px solid currentColor;
   transform: rotate(-45deg);
+}
+
+.accordion__button:after {
+  background-color: #D6E9F5;
 }
 
 .accordion__button[aria-expanded='true']::before,

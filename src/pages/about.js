@@ -893,7 +893,7 @@ export default () => (
           </Accordion>
         </section>
         <section className="container mx-auto px-4 my-20 pt-8 space-y-4">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Land Acknewledgement</h1>
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Land Acknowledgment</h1>
           <p className="text-m lg:text-l mt-2 font-light">
             The SUS acknowledges that McGill is on the traditional territory of the Indigenous
             People, Kanien&apos;keha:ka (Ga-niyen-ge-haa-ga). The Kanien&apos;keha:ka are the
