@@ -160,306 +160,308 @@ export default () => (
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.kobi.childImageSharp.fluid} alt="Kobi" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Kobi (he/him)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Chair
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Chemistry
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Everyone is nervous and excited to meet people! You
                 are not alone in feeling that way!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Sulley!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> The labs underneath Pulp &amp; Paper
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.anna.childImageSharp.fluid} alt="Annabel" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Annabel (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Communications
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Environment
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> This is a new experience for everyone. Going into
                 frosh and first year with a positive attitude toward these new changes will make a
                 huge difference in what you get out of your time here!!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Art from
                 Monsters University because he’s all about the chill vibez
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> Catching up with friends at OAP in the
                 fall :)
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.maddie.childImageSharp.fluid} alt="Maddie" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Maddie (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Communications{' '}
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Physiology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Take advantage of every opportunity to meet new
                 people and immerse yourself into the McGill environment!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Abominable
                 snowman cause I’m totally here for a good snow day
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> $1 grilled cheeses every friday evening
                 &lt;3
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.alissa.childImageSharp.fluid} alt="Alissa" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Alissa (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Sponsorship
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Math and Computer Science
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Reach out to people that are utterly different from
                 you. You’d be surprised at how much you can have in common with someone completely
                 different from you.
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Boo
                 because I like to think I’m cute and everything makes me laugh
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> All the amazing people I’ve met{' '}
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.maxine.childImageSharp.fluid} alt="Maxine" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Max (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Events
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Anatomy &amp; Cell Biology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> DON’T BE AFRAID TO MAKE FRIENDS!! We can&#39;t
                 guarantee that you will all be best friends forever but frosh is a great time to
                 find some of your life time besties!!! #weareallbestfriends
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Roz bc im
                 always watching ;)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> The people!!!!! &lt;3
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.jia.childImageSharp.fluid} alt="Jia" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Jia (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Events
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Immunology &amp; Microbiology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Be yourself and don’t be afraid to participate in ALL
                 the frosh events!!! Your frosh experience is irreplaceable!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Johnny
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> The endless friends you’ll meet!
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.yasmine.childImageSharp.fluid} alt="Yasmine" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Yasmine (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Events
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Mathematics &amp; Biology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Hydrate, sleep, step out of your comfort zone (and
                 repeat)! Frosh is a great way to meet new friends and make awesome memories :)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Boo, I
                 like Kitties
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> I never feel like I miss leg day
                 #stewartbiosquadup
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.pengi.childImageSharp.fluid} alt="Pengi" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Pengi (he/him)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Sponsorship
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Psyc
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Drink water!!! And be open minded, frosh is the best
                 time to make friends and explore different activities!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Johnny{' '}
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> $2 tequila shots at Gerts - rip gerts :({' '}
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.leo.childImageSharp.fluid} alt="Leo" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Léo (he/him)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Information Technology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Physiology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Frosh is one of the best ways to be introduced to
                 McGill and meet fellow first years who are all in the same boat, so make most of
                 what it has to offer!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Johnny
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> Ordering Chef on Call at 3am while
                 studying at Trottier
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.zeynep.childImageSharp.fluid} alt="Zeynep" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Zeynep (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Implementation
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Anatomy and Cell Biology{' '}
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Frosh is a great opportunity to get out of your
                 comfort zone and meet new people, make the most of it!{' '}
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Archie the
                 Scare Pig! He’s just a clueless little goofball!{' '}
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> The fact that it’s close to an alpaca
                 farm I visit once every year to chill with fuzzy dudes!
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.belanna.childImageSharp.fluid} alt="Belanna" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Belanna (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Inclusivity and Equitable Programming
+              </p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Economics and Psychology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Keep an open mind! Remember that frosh is what you
                 make of it, and it is designed to help you have fun and become acquainted with
                 McGill and all different kinds of people and activities!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Needleman
                 and Smitty
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> If you have $1 then you could get a
                 samosa and if have $2 then you could get 3 samosas and that’s so many samosas
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.charmaine.childImageSharp.fluid} alt="Charmaine" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Charmaine (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Interfaculty
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Psychology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Don’t be afraid to step out of your comfort zone or
                 make the first step to meet new people. Everyone is in the same boat and are all a
                 little nervous!{' '}
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Boo
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> The incredible life long friends I’ve
                 met through greek life and all sorts of fun events like Winter Carnival!
               </p>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
               <Img fluid={data.meghan.childImageSharp.fluid} alt="Meghan" />
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Name:</strong> Meg (she/her)
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Position:</strong> Events
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Major:</strong> Pharmacology
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Frosh Advice:</strong> Don’t be afraid to ask questions--McGill has a lot to
                 offer (clubs, greek life, etc.) and frosh is a great way to learn about all the ways
                 you can get involved on campus!!
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Which Monsters Inc character do you identify with most?:</strong> Johnny
               </p>
-              <p>
+              <p className="text-m lg:text-l mt-2 font-light">
                 <strong>Favourite Thing at McGill:</strong> OAP during frosh
               </p>
             </div>
