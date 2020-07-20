@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
+  "name": "Science Frosh",
+  "author": "Kyle Rubenok",
+  "repository": "https://github.com/krubenok/mcgill-science-frosh",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
