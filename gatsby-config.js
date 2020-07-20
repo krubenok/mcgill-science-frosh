@@ -1,4 +1,14 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Science Frosh 2020 | Froshters, Inc.',
+    titleTemplate: '%s · Froshters, Inc.',
+    description: 'McGill Science Frosh 2020, Froshters, Inc.!',
+    url: 'https://susfrosh.com', // No trailing slash allowed!
+    image: '/cover.png' // Path to your image you placed in the 'static' folder
+  }
+};
+
+module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-codebushi`,
