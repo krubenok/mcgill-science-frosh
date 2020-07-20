@@ -45,7 +45,7 @@ export default () => (
             <link rel="canonical" href="https://susfrosh.com" />
           </Helmet>
         </div>
-        <section className="container mx-auto px-4 pt-8 space-y-4 text-center">
+        <section className="container mx-auto px-4 pt-8 space-y-4 text-center pb-12">
           <Img fluid={data.cover.childImageSharp.fluid} />
           <section className="container mx-auto py-8 px-4 bg-gray-200 rounded-lg text-center items-center">
             <div className="flex items-center">
@@ -86,40 +86,7 @@ export default () => (
             />
           }
         />
-        {/* <SplitSection
-          primarySlot={
-            <div className="lg:pr-32 xl:pr-48">
-              <h3 className="text-3xl font-semibold leading-tight">Check out last year</h3>
-              <p className="mt-8 text-xl font-light leading-relaxed">It was pretty great.</p>
-            </div>
-          }
-          secondarySlot={
-            <iframe
-              title="Science Frosh 2019 Video"
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/s9Wx3ymS1Qk"
-              allow="autoplay; encrypted-media; picture-in-picture"
-            />
-          }
-        /> */}
-        {/* <section id="stats" className="py-20 lg:pt-32">
-          <div className="container mx-auto text-center">
-            <LabelText className="text-gray-600">Our customers get results</LabelText>
-            <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-              <div className="w-full sm:w-1/3">
-                <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-              </div>
-              <div className="w-full sm:w-1/3">
-                <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-              </div>
-              <div className="w-full sm:w-1/3">
-                <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-              </div>
-            </div>
-          </div>
-        </section> */}
-        <section id="testimonials" className="py-20 lg:py-40">
+        <section id="testimonials" className="py-10 lg:py-20">
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row md:-mx-3">
               {customerData.map(customer => (

@@ -12,19 +12,20 @@ import {
 import '../css/accordion.css';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
+import Logo from '../svg/Logo';
 
 export default () => (
   <StaticQuery
     query={graphql`
       query {
-        cover: file(relativePath: { eq: "cover.png" }) {
+        frosh2: file(relativePath: { eq: "frosh-2.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        frosh2: file(relativePath: { eq: "frosh-2.jpg" }) {
+        logo: file(relativePath: { eq: "logo.png" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
@@ -43,30 +44,39 @@ export default () => (
             <link rel="canonical" href="https://susfrosh.com/about" />
           </Helmet>
         </div>
-        <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
-          <Img
-            fluid={data.cover.childImageSharp.fluid}
-            alt="Froshers Ink Logo on green background with dates august 27th to 30th."
-          />
+        <section className="container mx-auto px-4 pt-8 space-y-4">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold max-w-screen-lg mx-auto">
             About Frosh
           </h1>
-          <p className="maxtext-m lg:text-l mt-2 leading-relaxed max-w-screen-lg mx-auto">
-            <b>FROSHTERS, INC</b> is the 2020 Orientation Week for students entering the McGill
-            Faculty of Science in the 2020-2021 academic year. Due to the McGill Fall 2020 semester
-            being online, the Faculty of Science will also be moving Frosh to a virtual platform.
-            When students register for Frosh, they&apos;re signing up for four days of engaging
-            virtual events with the goal of introducing students to the McGill and Montreal
-            community. Frosh will be dedicated to showcasing McGill campus and student life while
-            helping students foster online connections with other McGill students in a safe and
-            inclusive environment. No matter where our froshies are this year they will have the
-            ability to meet the McGill community, become comfortable with Montreal, and make
-            long-lasting friends. With the guidance of over 120 Frosh Leaders (upper year McGill
-            students who undergo intensive online skills and leadership training in preparation for
-            Frosh), Froshters, Inc. is an incoming student&apos;s chance to experience what McGill
-            has to offer. We are extremely excited to provide an experience that will be
-            accommodating for all students. The Science coordinators, leaders, and community can’t
-            wait to see you August 27th - 30th for this once in a lifetime opportunity!
+          <SplitSection
+            primarySlot={
+              <Img
+                fluid={data.logo.childImageSharp.fluid}
+                alt="Froshers Ink Logo on green background with dates august 27th to 30th."
+              />
+            }
+            secondarySlot={
+              <p className="maxtext-m lg:text-l mt-2 leading-normal max-w-screen-lg mx-auto">
+                <b>FROSHTERS, INC</b> is the 2020 Orientation Week for students entering the McGill
+                Faculty of Science in the 2020-2021 academic year. Due to the McGill Fall 2020
+                semester being online, the Faculty of Science will also be moving Frosh to a virtual
+                platform. When students register for Frosh, they&apos;re signing up for four days of
+                engaging virtual events with the goal of introducing students to the McGill and
+                Montreal community. Frosh will be dedicated to showcasing McGill campus and student
+                life while helping students foster online connections with other McGill students in
+                a safe and inclusive environment.
+              </p>
+            }
+          />
+          <p>
+            No matter where our froshies are this year they will have the ability to meet the McGill
+            community, become comfortable with Montreal, and make long-lasting friends. With the
+            guidance of over 120 Frosh Leaders (upper year McGill students who undergo intensive
+            online skills and leadership training in preparation for Frosh), Froshters, Inc. is an
+            incoming student&apos;s chance to experience what McGill has to offer. We are extremely
+            excited to provide an experience that will be accommodating for all students. The
+            Science coordinators, leaders, and community can’t wait to see you August 27th - 30th
+            for this once in a lifetime opportunity!
           </p>
         </section>
         <section className="container mx-auto px-4 my-20 pt-8 space-y-4">
@@ -88,7 +98,7 @@ export default () => (
               </div>
             }
           />
-          <h3 className="text-xl lg:text-2xl xl:text-3xl">General</h3>
+          <h3 className="text-xl lg:text-2xl xl:text-3xl pt-8">General</h3>
           <Accordion allowZeroExpanded>
             <AccordionItem>
               <AccordionItemHeading>
