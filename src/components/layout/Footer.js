@@ -36,7 +36,7 @@ const Footer = () => (
                 <a href="mailto:frosh@susmcgill.ca">Email</a>
               </li>
               <li>
-                <a href="m.me/ScienceOrientationWeek">Facebook Messenger</a>
+                <a href="https://m.me/ScienceOrientationWeek">Facebook Messenger</a>
               </li>
             </ul>
           </div>
