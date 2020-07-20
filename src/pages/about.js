@@ -844,7 +844,7 @@ export default () => (
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
-                <ul className="list-disc text-m lg:text-l ml-8 mt-2 font-light">
+                <ul>
                   <li>
                     Students who make the decision to consume alcohol during Frosh week should be
                     aware that alcohol affects different people in different ways. Here are a few

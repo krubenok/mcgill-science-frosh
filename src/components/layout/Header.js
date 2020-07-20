@@ -34,8 +34,8 @@ const Header = () => (
         </Link>
       </div>
       <div className="hidden md:block">
-        <a href="https://www.mcgilloweek.ca">
-          <Button className="text-sm">Register Now</Button>
+        <a>
+          <Button className="text-sm">Registration Opening Soon</Button>
         </a>
       </div>
     </div>

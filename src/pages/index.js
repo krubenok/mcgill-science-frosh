@@ -21,7 +21,14 @@ export default () => (
         }
         logo1: file(relativePath: { eq: "logo.png" }) {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        cover: file(relativePath: { eq: "cover.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -38,24 +45,24 @@ export default () => (
             <link rel="canonical" href="https://susfrosh.com" />
           </Helmet>
         </div>
-        <section className="pt-20 md:pt-40">
-          <div className="container mx-auto px-8 lg:flex">
-            <div className="text-center lg:text-left lg:w-1/2">
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-                Froshters, Inc.
-              </h1>
-              <p className="text-xl lg:text-2xl mt-6 font-light">McGill Science Frosh 2020</p>
-              <p className="mt-8 md:mt-12">
-                <a href="https://www.mcgilloweek.ca">
-                  <Button size="lg">Register Now</Button>
-                </a>
-              </p>
-              <p className="mt-4 text-gray-800">August 27th - 30th 2020</p>
+        <section className="container mx-auto px-4 pt-8 space-y-4 text-center">
+          <Img fluid={data.cover.childImageSharp.fluid} />
+          <section className="container mx-auto py-8 px-4 bg-gray-200 rounded-lg text-center items-center">
+            <div className="flex items-center">
+              <div className="flex-auto">
+                <h1 className="text-xl lg:text-2xl xl:text-3xl font-bold leading-none">
+                  Sign up for the best week of your life!
+                </h1>
+              </div>
+              <div className="flex-auto">
+                <p>
+                  <a>
+                    <Button size="sm:l md:xl">Registration Opening Soon</Button>
+                  </a>
+                </p>
+              </div>
             </div>
-            <div className="lg:w-1/2">
-              <Img fluid={data.logo1.childImageSharp.fluid} alt="Froshters Inc. Logo" />
-            </div>
-          </div>
+          </section>
         </section>
         <SplitSection
           reverseOrder
@@ -134,8 +141,8 @@ export default () => (
             </Link>
           </p>
           <p className="mt-8">
-            <a href="https://www.mcgilloweek.ca">
-              <Button size="xl">Register</Button>
+            <a>
+              <Button size="xl">Registeration Opening Soon</Button>
             </a>
           </p>
         </section>
