@@ -33,7 +33,7 @@ const Header = () => (
           Contact
         </Link>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block focus:yp pr-6">
         <a href="">
           <Button className="text-sm">Registration Opening Soon</Button>
         </a>
