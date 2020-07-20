@@ -1,66 +1,49 @@
-require(`dotenv`).config({
-  path: `.env`,
-})
-
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    // Used for the title template on pages other than the index site
-    siteTitle: `Science Frosh 2020`,
-    // Default title of the page
-    siteTitleAlt: `SUS Frosh`,
-    // Can be used for e.g. JSONLD
-    siteHeadline: `An unforgettable Science Frosh 2020 is coming soon.`,
-    // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://susfrosh.com`,
-    // Used for SEO
-    siteDescription: `An unforgettable Science Frosh 2020 is coming soon.`,
-    // Will be set on the <html /> tag
-    siteLanguage: `en`,
-    // Used for og:image and must be placed inside the `static` folder
-    siteImage: `/banner.jpg`,
-    // Twitter Handle
-    author: `@krubenok`,
-  },
+    title: 'Science Frosh 2020 | Froshters, Inc.',
+    titleTemplate: '%s · Froshters, Inc.',
+    description: 'McGill Science Frosh 2020, Froshters, Inc.!',
+    url: 'https://susfrosh.com', // No trailing slash allowed!
+    image: '/cover.png', // Path to your image you placed in the 'static' folder
+    siteLanguage: 'en',
+    siteImage: '/cover.png'
+  }
+};
+
+module.exports = {
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
+      resolve: `gatsby-theme-codebushi`,
+      options: {
+        tailwindConfig: `tailwind.config.js`
+      }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
+        path: `${__dirname}/src/images/`
+      }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Science Frosh 2020`,
-        short_name: `Science Frosh 2020`,
-        description: `An unforgettable Science Frosh 2020 is coming soon.`,
+        name: `Science Frosh 2020: Froshters, Inc.`,
+        short_name: `Froshters, Inc.`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        background_color: `#FFFFFF`,
+        theme_color: `#7AB142`,
         display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
+        icon: `src/images/logo.png`
+      }
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
-  ],
-}
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about/`, `/schedule/`]
+      }
+    }
+  ]
+};
