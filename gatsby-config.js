@@ -8,7 +8,7 @@ module.exports = {
     siteLanguage: 'en',
     siteImage: '/cover.png'
   }
-};
+}
 
 module.exports = {
   plugins: [
@@ -46,4 +46,4 @@ module.exports = {
       }
     }
   ]
-};
+}

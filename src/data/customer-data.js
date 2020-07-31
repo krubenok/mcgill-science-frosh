@@ -21,4 +21,4 @@ export default [
       'https://docs.google.com/forms/d/18DqM_ejfVlJObVDWJCS4P85PkHihK4MhvifGHxfFdOg/viewform?fbclid=IwAR3JE4IvHqDcAYoK6rtq7390vHQwfIBU4ZCSx2VK1PliV6dYAWQwkh7w0Rg&edit_requested=true',
     cta: 'Let us know'
   }
-];
+]
