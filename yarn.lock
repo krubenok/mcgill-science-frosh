@@ -10917,10 +10917,10 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-accessible-accordion@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-3.3.0.tgz#01dfc9f8f55df259ee775f0145ec86257b05bd71"
-  integrity sha512-84YDraAJM6J/etbvZnC+K4f7UbkidQAO8ZMRzvilcNwK6gfcgNqhiTAvAIdMKZmsrlSwTkKHyqlNDzj3pLuS7Q==
+react-accessible-accordion@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-3.3.1.tgz#3f50be58ebafaef2d56cc6456efce37fe80ec6d1"
+  integrity sha512-0uqlzNB31AT/kOz+H/gkg+U1dUN2jZZ+CbiczunyYjTW0D5lKLkMdF7G1tjP4Jru3kLkbcgMSa4Va6OqBQT+Jg==
 
 react-anchor-link-smooth-scroll@^1.0.12:
   version "1.0.12"
