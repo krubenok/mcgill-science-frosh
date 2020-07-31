@@ -12,7 +12,6 @@ import {
 import '../css/accordion.css';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-import Logo from '../svg/Logo';
 
 export default () => (
   <StaticQuery
