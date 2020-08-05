@@ -1,8 +1,8 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import Layout from '../components/layout/Layout';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import Layout from '../components/layout/Layout'
 
 export default () => (
   <StaticQuery
@@ -19,21 +19,21 @@ export default () => (
     `}
     render={data => (
       <Layout>
-        <div className="application">
+        <div className='application'>
           <Helmet>
-            <html lang="en" amp />
-            <meta charSet="utf-8" />
+            <html lang='en' amp />
+            <meta charSet='utf-8' />
             <title>Froshters, Inc. | Resources</title>
-            <link rel="canonical" href="https://susfrosh.com/resources" />
+            <link rel='canonical' href='https://susfrosh.com/resources' />
           </Helmet>
         </div>
-        <section className="container mx-auto px-4 pt-8 mb-20 space-y-4">
+        <section className='container mx-auto px-4 pt-8 mb-20 space-y-4'>
           <Img
             fluid={data.frosh3.childImageSharp.fluid}
-            alt="Many students doing Yoga at top of mountain"
+            alt='Many students doing Yoga at top of mountain'
           />
-          <div className="max-w-screen-lg mx-auto space-y-4">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold" id="frosh-mission-statement">
+          <div className='max-w-screen-lg mx-auto space-y-4'>
+            <h1 className='text-4xl lg:text-5xl xl:text-6xl font-bold' id='frosh-mission-statement'>
               Frosh Mission Statement
             </h1>
             <p>
@@ -44,14 +44,14 @@ export default () => (
               valuable connections as well as communicate any personal needs for their optimal Frosh
               experience. If you have any concerns or feedback, please feel free to contact{' '}
               <p>
-                <a href="mailto:frosh@susmcgill.ca">frosh@susmcgill.ca</a> or{' '}
-                <a href="mailto:belanna.gans@mail.mcgill.ca">belanna.gans@mail.mcgill.ca</a>
+                <a href='mailto:frosh@susmcgill.ca'>frosh@susmcgill.ca</a> or{' '}
+                <a href='mailto:belanna.gans@mail.mcgill.ca'>belanna.gans@mail.mcgill.ca</a>
               </p>
             </p>
-            <h2 className="text-3xl lg:text-4xl font-semibold" id="student-resources">
+            <h2 className='text-3xl lg:text-4xl font-semibold' id='student-resources'>
               Student Resources
             </h2>
-            <h3 className="text-2xl lg:text-3xl font-semibold" id="during-frosh-">
+            <h3 className='text-2xl lg:text-3xl font-semibold' id='during-frosh-'>
               During Frosh:
             </h3>
 
@@ -77,7 +77,7 @@ export default () => (
             <p>
               <p>
                 <strong>
-                  <a href="https://psc.ssmu.ca">Peer Support Centre</a>
+                  <a href='https://psc.ssmu.ca'>Peer Support Centre</a>
                 </strong>
               </p>
               This is a student-run, confidential and non-judgemental support center at McGill in
@@ -96,20 +96,20 @@ export default () => (
               <p>Sexual violence response advisor: 514 398 4486</p>
               <p>Sexual violence education advisor: 514 398 3786</p>
               <p>
-                <a href="mailto:osvrse@mcgill.ca">osvrse@mcgill.ca</a>
+                <a href='mailto:osvrse@mcgill.ca'>osvrse@mcgill.ca</a>
               </p>
             </p>
             <p>
               <p>
                 <strong>
-                  <a href="http://www.sacomss.org/wp/">SACOMSS</a>
+                  <a href='http://www.sacomss.org/wp/'>SACOMSS</a>
                 </strong>
               </p>
               Sexual Assault Centre of the McGill Students’ Society. Run by McGill students to help
               provide counseling services for survivors of sexual misconduct.
               <p>514 398 8500</p>
             </p>
-            <h3 className="text-2xl lg:text-3xl font-semibold" id="during-your-time-at-mcgill-">
+            <h3 className='text-2xl lg:text-3xl font-semibold' id='during-your-time-at-mcgill-'>
               During your time at McGill:
             </h3>
             <p>
@@ -123,7 +123,7 @@ export default () => (
             <p>
               <p>
                 <strong>
-                  <a href="http://msert.sus.mcgill.ca/about/">
+                  <a href='http://msert.sus.mcgill.ca/about/'>
                     McGill Student Emergency Response Team (M-SERT)
                   </a>
                 </strong>
@@ -132,14 +132,14 @@ export default () => (
               services. If you ever need help, don&#39;t be afraid to ask as they’ll be present at
               many McGill events wearing red shirts.
               <p>
-                <a href="mailto:msert.firstaid@gmail.com">msert.firstaid@gmail.com</a>
+                <a href='mailto:msert.firstaid@gmail.com'>msert.firstaid@gmail.com</a>
               </p>
               <p>514 398 3000</p>
             </p>
             <p>
               <p>
                 <strong>
-                  <a href="https://drivesafe.ssmu.ca">Drivesafe</a>
+                  <a href='https://drivesafe.ssmu.ca'>Drivesafe</a>
                 </strong>
               </p>
               A volunteer student service, they offer free rides home to students in need anywhere
@@ -150,7 +150,7 @@ export default () => (
             <p>
               <p>
                 <strong>
-                  <a href="https://walksafe.ssmu.ca">Walksafe</a>
+                  <a href='https://walksafe.ssmu.ca'>Walksafe</a>
                 </strong>
               </p>
               A volunteer student service that provides free accompaniment for those walking at
@@ -167,13 +167,13 @@ export default () => (
               students in need, regardless of situation.
               <p>514 398 8500</p>
               <p>
-                <a href="mailto:main@sacomss.org">main@sacomss.org </a>
+                <a href='mailto:main@sacomss.org'>main@sacomss.org </a>
               </p>
             </p>
             <p>
               <p>
                 <strong>
-                  <a href="https://www.mcgill.ca/campussafety/security-services">McGill Security</a>
+                  <a href='https://www.mcgill.ca/campussafety/security-services'>McGill Security</a>
                 </strong>
               </p>
               They patrol campus ensuring the safety of students 24 hours a day. If you have an
@@ -183,7 +183,7 @@ export default () => (
             <p>
               <p>
                 <strong>
-                  <a href="https://involvement.mcgill.ca/organization/iss">
+                  <a href='https://involvement.mcgill.ca/organization/iss'>
                     International student services
                   </a>
                 </strong>
@@ -196,7 +196,7 @@ export default () => (
             <p>
               <p>
                 <strong>
-                  <a href="https://www.mcgill.ca/osd/">
+                  <a href='https://www.mcgill.ca/osd/'>
                     Office for Students with Disabilities (OSD)
                   </a>
                 </strong>
@@ -209,7 +209,7 @@ export default () => (
             <p>
               <p>
                 <strong>
-                  <a href="https://www.mcgill.ca/wellness-hub/">Student Wellness Hub</a>
+                  <a href='https://www.mcgill.ca/wellness-hub/'>Student Wellness Hub</a>
                 </strong>
               </p>
               The Student Wellness Hub is a students&#39; place to go for their holistic health and
@@ -218,7 +218,7 @@ export default () => (
               our Macdonald and downtown campuses. Professional physical and mental health services.
               <p>514 398 6017</p>
             </p>
-            <h2 className="text-3xl lg:text-4xl font-semibold" id="consent">
+            <h2 className='text-3xl lg:text-4xl font-semibold' id='consent'>
               Consent
             </h2>
             <p>
@@ -241,7 +241,7 @@ export default () => (
               committed without consent in the context of Frosh are eligible for consequences
               imposed by respective Frosh Committees and the Office of the Dean of Students.
             </p>
-            <h3 className="text-2xl lg:text-3xl font-semibold" id="consent-online">
+            <h3 className='text-2xl lg:text-3xl font-semibold' id='consent-online'>
               Consent Online
             </h3>
             <p>
@@ -266,12 +266,12 @@ export default () => (
             </p>
             <p>
               Other accessibility concerns?{' '}
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfI5lbbUHm7gGAx_VhVoXBh1nmzGGIVeDf3dRlTVai7QuqLYQ/viewform?usp=sf_link">
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfI5lbbUHm7gGAx_VhVoXBh1nmzGGIVeDf3dRlTVai7QuqLYQ/viewform?usp=sf_link'>
                 Fill out the form to let us know
               </a>
               !
             </p>
-            <h2 className="text-3xl lg:text-4xl font-semibold" id="science-bursary">
+            <h2 className='text-3xl lg:text-4xl font-semibold' id='science-bursary'>
               Science Bursary
             </h2>
             <p>
@@ -279,7 +279,7 @@ export default () => (
               need and wish to participate in Science Faculty Frosh. To apply for the Science Frosh
               Bursary, incoming students must explain their financial standing and elaborate their
               desire to engage in{' '}
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJVPZe9-XclEZoWsQHU9L5DHVbE_akvIhkWqKndeVB7-OSjA/viewform">
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfJVPZe9-XclEZoWsQHU9L5DHVbE_akvIhkWqKndeVB7-OSjA/viewform'>
                 Science Frosh 2020 in the bursary form.{' '}
               </a>
               The deadline to submit a bursary application is August 16th at 11:59pm.
@@ -289,4 +289,4 @@ export default () => (
       </Layout>
     )}
   />
-);
+)
