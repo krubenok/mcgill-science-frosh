@@ -36,7 +36,7 @@ module.exports = {
         short_name: 'Froshters, Inc.',
         start_url: '/',
         background_color: '#FFFFFF',
-        theme_color: '#7AB142',
+        theme_color: '#F5CB5C',
         display: 'standalone',
         icon: 'src/images/logo.png'
       }
@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        precachePages: ['/about/', '/schedule/', '/resources/']
+        precachePages: ['/about', '/schedule', '/resources']
       }
     }
   ]
