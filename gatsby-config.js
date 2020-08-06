@@ -3,12 +3,14 @@ module.exports = {
     title: 'Science Frosh 2020 | Froshters, Inc.',
     titleTemplate: '%s · Froshters, Inc.',
     description: 'McGill Science Frosh 2020, Froshters, Inc.!',
-    url: 'https://susfrosh.com', // No trailing slash allowed!
-    image: '/cover.png', // Path to your image you placed in the 'static' folder
+    url: 'https://susfrosh.com',
+    image: '/cover.png',
     siteLanguage: 'en',
-    siteImage: '/cover.png'
+    siteImage: '/cover.png',
+    author: `@krubenok`,
+    github: `https://github.com/krubenok/mcgill-science-frosh`
   }
-}
+};
 
 module.exports = {
   plugins: [
@@ -42,8 +44,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        precachePages: ['/about/', '/schedule/']
+        precachePages: ['/about/', '/schedule/', '/resources/']
       }
     }
   ]
-}
+};
