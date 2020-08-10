@@ -6337,7 +6337,7 @@ gatsby-cli@^2.12.75:
     yargs "^15.3.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.14, gatsby-core-utils@^1.3.15:
+gatsby-core-utils@^1.3.15:
   version "1.3.15"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.15.tgz#6fad76a238df514afa70fed0f94427fbb39762ca"
   integrity sha512-np1tJCGejhCHtgHdFl6+y5EwVAzdrieJZ3hdvpeOrJ22bL9ktl5XVLy4K937ThgxHLp8+ElMDVdziNun5tC8eg==
@@ -11395,10 +11395,10 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-accessible-accordion@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-3.3.1.tgz#3f50be58ebafaef2d56cc6456efce37fe80ec6d1"
-  integrity sha512-0uqlzNB31AT/kOz+H/gkg+U1dUN2jZZ+CbiczunyYjTW0D5lKLkMdF7G1tjP4Jru3kLkbcgMSa4Va6OqBQT+Jg==
+react-accessible-accordion@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-3.3.3.tgz#387a3f4ab1840b5b6dff9f1f16544f658d5c8e12"
+  integrity sha512-I1Niy21IIyXIzcDuIlTnnN3k8bUux7puq60eyNuwf+lhvftnocn7hLhAz2NycXrZOqBClqi50YBqXlnbOTNrjQ==
 
 react-anchor-link-smooth-scroll@^1.0.12:
   version "1.0.12"
