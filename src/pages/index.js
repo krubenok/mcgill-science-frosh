@@ -1,12 +1,12 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import { StaticQuery, graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
-import Button from '../components/Button'
-import CustomerCard from '../components/CustomerCard'
-import Layout from '../components/layout/Layout'
-import SplitSection from '../components/SplitSection'
-import customerData from '../data/customer-data'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { StaticQuery, graphql, Link } from 'gatsby';
+import Img from 'gatsby-image';
+import Button from '../components/Button';
+import CustomerCard from '../components/CustomerCard';
+import Layout from '../components/layout/Layout';
+import SplitSection from '../components/SplitSection';
+import customerData from '../data/customer-data';
 
 export default () => (
   <StaticQuery
@@ -37,27 +37,27 @@ export default () => (
     `}
     render={data => (
       <Layout>
-        <div className='application'>
+        <div className="application">
           <Helmet>
-            <html lang='en' amp />
-            <meta charSet='utf-8' />
+            <html lang="en" amp />
+            <meta charSet="utf-8" />
             <title>Froshters, Inc. | Home</title>
-            <link rel='canonical' href='https://susfrosh.com' />
+            <link rel="canonical" href="https://susfrosh.com" />
           </Helmet>
         </div>
-        <section className='container mx-auto px-4 pt-8 space-y-4 text-center pb-12'>
+        <section className="container mx-auto px-4 pt-8 space-y-4 text-center pb-12">
           <Img fluid={data.cover.childImageSharp.fluid} />
-          <section className='container mx-auto py-8 px-4 bg-gray-200 rounded-lg text-center items-center'>
-            <div className='flex items-center'>
-              <div className='flex-auto'>
-                <h1 className='text-xl lg:text-2xl xl:text-3xl font-bold leading-none'>
+          <section className="container mx-auto py-8 px-4 bg-gray-200 rounded-lg text-center items-center">
+            <div className="flex items-center">
+              <div className="flex-auto">
+                <h1 className="text-xl lg:text-2xl xl:text-3xl font-bold leading-none">
                   Sign up for the best week of your life!
                 </h1>
               </div>
-              <div className='flex-auto'>
+              <div className="flex-auto">
                 <p>
-                  <a href=''>
-                    <Button size='sm:l md:xl'>Registration Opening Soon</Button>
+                  <a href="https://mcgill-orientation-week.eventus.io/login">
+                    <Button size="sm:l md:xl">Register</Button>
                   </a>
                 </p>
               </div>
@@ -67,9 +67,9 @@ export default () => (
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className='lg:pl-32 xl:pl-48'>
-              <h3 className='text-3xl font-semibold leading-tight'>Join us August 27th - 30th!</h3>
-              <p className='mt-6 text-l font-light leading-relaxed'>
+            <div className="lg:pl-32 xl:pl-48">
+              <h3 className="text-3xl font-semibold leading-tight">Join us August 27th - 30th!</h3>
+              <p className="mt-6 text-l font-light leading-relaxed">
                 When students register for Frosh, they&apos;re signing up for four days of engaging
                 virtual events with the goal of introducing students to the McGill and Montreal
                 community. No matter where our Froshies are this year they will have the opportunity
@@ -82,38 +82,38 @@ export default () => (
           secondarySlot={
             <Img
               fluid={data.frosh1.childImageSharp.fluid}
-              alt='Photo of many students in a crowd at a concert'
+              alt="Photo of many students in a crowd at a concert"
             />
           }
         />
-        <section id='testimonials' className='py-10 lg:py-20'>
-          <div className='container mx-auto'>
-            <div className='flex flex-col md:flex-row md:-mx-3'>
+        <section id="testimonials" className="py-10 lg:py-20">
+          <div className="container mx-auto">
+            <div className="flex flex-col md:flex-row md:-mx-3">
               {customerData.map(customer => (
-                <div key={customer.customerName} className='flex-1 px-3'>
+                <div key={customer.customerName} className="flex-1 px-3">
                   <CustomerCard customer={customer} />
                 </div>
               ))}
             </div>
           </div>
         </section>
-        <section className='container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center'>
-          <h3 className='text-3xl mx-2 font-semibold'>
+        <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+          <h3 className="text-3xl mx-2 font-semibold">
             Register now for four days of exciting interactive events and bonding activities.
           </h3>
-          <p className='mt-8 mx-2 text-xl font-light'>
+          <p className="mt-8 mx-2 text-xl font-light">
             For more information on what is included in your Frosh package, check out our{' '}
-            <Link className='text-gray-800 underline' to='/about'>
+            <Link className="text-gray-800 underline" to="/about">
               About page.
             </Link>
           </p>
-          <p className='mt-8'>
-            <a href=''>
-              <Button size='xl'>Registration Opening Soon</Button>
+          <p className="mt-8">
+            <a href="https://mcgill-orientation-week.eventus.io/login">
+              <Button size="xl">Register</Button>
             </a>
           </p>
         </section>
       </Layout>
     )}
   />
-)
+);
