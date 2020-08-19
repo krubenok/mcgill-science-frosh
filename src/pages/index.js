@@ -35,7 +35,7 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout>
         <div className="application">
           <Helmet>
@@ -89,7 +89,7 @@ export default () => (
         <section id="testimonials" className="py-10 lg:py-20">
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row md:-mx-3">
-              {customerData.map(customer => (
+              {customerData.map((customer) => (
                 <div key={customer.customerName} className="flex-1 px-3">
                   <CustomerCard customer={customer} />
                 </div>

@@ -80,7 +80,7 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout>
         <div className="application">
           <Helmet>

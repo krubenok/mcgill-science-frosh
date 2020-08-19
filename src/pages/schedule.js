@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Layout from '../components/layout/Layout';
 import Img from 'gatsby-image';
 import { StaticQuery, graphql } from 'gatsby';
+import Layout from '../components/layout/Layout';
 
 export default () => (
   <StaticQuery
@@ -17,7 +17,7 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout>
         <div className="application">
           <Helmet>

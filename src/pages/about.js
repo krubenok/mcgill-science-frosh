@@ -7,7 +7,7 @@ import {
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
-  AccordionItemPanel
+  AccordionItemPanel,
 } from 'react-accessible-accordion';
 import '../css/accordion.css';
 import Layout from '../components/layout/Layout';
@@ -33,7 +33,7 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout>
         <div className="application">
           <Helmet>
