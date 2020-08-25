@@ -182,9 +182,9 @@ export default () => (
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
               <Img fluid={data.pannizza.childImageSharp.fluid} alt="Pannizza" />
             </div>
-            <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
+            {/* <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
               <Img fluid={data.spc.childImageSharp.fluid} alt="SPC" />
-            </div>
+            </div> */}
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
               <Img fluid={data.spin.childImageSharp.fluid} alt="Spin Energie" />
             </div>
