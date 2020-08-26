@@ -15,9 +15,16 @@ export default () => (
             }
           }
         }
+        map: file(relativePath: { eq: "map.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
-    render={(data) => (
+    render={data => (
       <Layout>
         <div className="application">
           <Helmet>
@@ -29,6 +36,10 @@ export default () => (
         </div>
         <section className="container mx-auto px-4 pt-8 mb-20 space-y-4 text-center max-w-screen-lg mx-auto">
           <Img fluid={data.schedule.childImageSharp.fluid} alt="Frosh Schedule" />
+        </section>
+        <section className="container mx-auto px-16 pt-8 mb-20 space-y-4 text-center max-w-screen-lg mx-auto">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Map</h1>
+          <Img fluid={data.map.childImageSharp.fluid} alt="Frosh Schedule" />
         </section>
       </Layout>
     )}
