@@ -160,7 +160,7 @@ export default () => (
               </a>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
-              <a href="https://www.cibc.com/en/personal-banking.html">
+              <a href="https://www.cibc.com/en/student.html">
                 <Img fluid={data.cibc.childImageSharp.fluid} alt="CIBC" />
               </a>
             </div>
