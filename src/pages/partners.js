@@ -127,6 +127,13 @@ export default () => (
             }
           }
         }
+        manaba: file(relativePath: { eq: "sponsors/manaba.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -200,6 +207,11 @@ export default () => (
                   fluid={data.licm.childImageSharp.fluid}
                   alt="Legal Information Clinic at McGill"
                 />
+              </a>
+            </div>
+            <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
+              <a href="https://manaba.ca">
+                <Img fluid={data.manaba.childImageSharp.fluid} alt="Manaba" />
               </a>
             </div>
             <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-10 px-6">
